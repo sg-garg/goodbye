@@ -1,0 +1,25 @@
+# general directive for setting php error level
+# php_value error_reporting 8191
+
+# php_flag display_startup_errors on
+# php_flag display_errors on
+# php_flag html_errors on
+# php_value docref_root 0
+# php_value docref_ext 0
+
+# enable PHP error logging
+# php_flag  log_errors on
+# php_value error_log  /home/egoodbye/public_html/site/PHP_errors.log
+
+# RewriteEngine On 
+# RewriteCond %{SERVER_PORT} 80 
+# RewriteCond %{REQUEST_URI} site
+# RewriteRule ^(.*)$ http://www.egoodbyes.com/site/$1 [R,L]
+
+# php_value upload_max_filesize 50M
+# php_value post_max_size 50M
+# rbtj:: added below property for video upload
+php_value upload_max_filesize 50M
+php_value post_max_size 50M
+php_value max_execution_time 2000
+php_value max_input_time 2000
