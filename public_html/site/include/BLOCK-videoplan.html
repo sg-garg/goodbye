@@ -1,0 +1,35 @@
+<!-- VIDEO PLAN -->
+<div class="plan-block">
+<h2>Video</h2>
+<hr> 
+<p><i><b>$2.99 Per Video</b></i><br>
+Create more video goodbye messages.</p>
+
+<img src="img/spacer.gif" alt="" height="30" width="20" border="0">
+
+<form name="myvideo">
+<p><select name="numvideos" size="1">
+<option selected value="payment_page.php?amt=299&pln=Video%20Plan(x1)&lev=1&gby=0&usp=0&vid=1&mem=0&exa=a&exb=0">Please select one</option>
+ <option value="payment_page.php?amt=299&pln=Video%20Plan(x1)&lev=1&gby=0&usp=0&vid=1&mem=0&exa=a&exb=0">1</option>
+ <option value="payment_page.php?amt=598&pln=Video%20Plan(x2)&lev=1&gby=0&usp=0&vid=2&mem=0&exa=a&exb=0">2</option>
+ <option value="payment_page.php?amt=897&pln=Video%20Plan(x3)&lev=1&gby=0&usp=0&vid=3&mem=0&exa=a&exb=0">3</option>
+ <option value="payment_page.php?amt=1196&pln=Video%20Plan(x4)&lev=1&gby=0&usp=0&vid=4&mem=0&exa=a&exb=0">4</option>
+ <option value="payment_page.php?amt=1495&pln=Video%20Plan(x5)&lev=1&gby=0&usp=0&vid=5&mem=0&exa=a&exb=0">5</option>
+ <option value="payment_page.php?amt=1794&pln=Video%20Plan(x6)&lev=1&gby=0&usp=0&vid=6&mem=0&exa=a&exb=0">6</option>
+ <option value="payment_page.php?amt=2093&pln=Video%20Plan(x7)&lev=1&gby=0&usp=0&vid=7&mem=0&exa=a&exb=0">7</option>
+ <option value="payment_page.php?amt=2392&pln=Video%20Plan(x8)&lev=1&gby=0&usp=0&vid=8&mem=0&exa=a&exb=0">8</option>
+ <option value="payment_page.php?amt=2691&pln=Video%20Plan(x9)&lev=1&gby=0&usp=0&vid=9&mem=0&exa=a&exb=0">9</option>
+ <option value="payment_page.php?amt=2990&pln=Video%20Plan(x10)&lev=1&gby=0&usp=0&vid=10&mem=0&exa=a&exb=0">10</option>
+</select></p>
+
+<script type="text/javascript">
+	function govid(){
+	location=
+	document.myvideo.numvideos.
+	options[document.myvideo.numvideos.selectedIndex].value
+	}
+</script>
+
+<input type="button" name="test" value="Purchase Now" onClick="govid()" class="large button blue">
+</form>
+</div>

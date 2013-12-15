@@ -1,0 +1,51 @@
+<!-- TEST DEVELOPMENT BLOCK -->
+<div class="plan-block">
+<h2>Test Order</h2>
+<hr> 
+<p><i>All of these pricings are 1.05.
+ Minus $1 for facebook this makes
+  charge 0.05 - for testing purposes</p>
+<p style="line-height: 4px;">&nbsp;</p>
+
+<form name="NEWCOMBO">
+<p><select name="TEST" size="1">
+
+<option selected>Please select one</option>
+ 
+<option value="payment_page.php?amt=105&pln=TestPremium(L3,99,5,5,2)&lev=3&gby=1&usp=1&vid=1&mem=1&exa=d&exb=0">Test for Premium (L3,99,5,5,2)</option>
+
+<option value="payment_page.php?amt=105&pln=TestStandard(L2,5,1,1,1)&lev=2&gby=2&usp=2&vid=2&mem=2&exa=d&exb=0">Test for Standard (L2,5,1,1,1)</option>
+
+<option value="payment_page.php?amt=105&pln=TestPremiumUpgrade(L3,99,5,5,2)&lev=3&gby=1&usp=1&vid=1&mem=1&exa=c&exb=0">Test for Premium Upgrade (L3,99,5,5,2)</option>
+
+<option value="payment_page.php?amt=105&pln=TestStandardUpgrade(L2,5,1,1,1)&lev=2&gby=2&usp=2&vid=2&mem=2&exa=c&exb=0">Test for StandardUpgrade (L2,5,1,1,1)</option>
+
+<option value="payment_page.php?amt=105&pln=TestVideo(L1,0,0,1,0)&lev=1&gby=0&usp=0&vid=0&mem=1&exa=a&exb=0">Test for 1 memorial (L1,0,0,1,0)</option>
+ 
+ <option value="payment_page.php?amt=105&pln=TestMemorial(L1,0,0,0,1)&lev=1&gby=0&usp=0&vid=1&mem=0&exa=b&exb=0">Test for 1 video (L1,0,0,0,1)</option>
+ 
+ <option value="payment_page.php?amt=005&pln=TestPlan&lev=3&gby=10&usp=10&vid=5&mem=3&exa=d&exb=0">TEST with 0.05</option>
+ <option value="payment_page.php?amt=105&pln=TestPlan&lev=4&gby=10&usp=10&vid=5&mem=3&exa=2&exb=0">6</option>
+ <option value="payment_page.php?amt=105&pln=TestPlan&lev=4&gby=10&usp=10&vid=5&mem=3&exa=2&exb=0">7</option>
+ <option value="payment_page.php?amt=105&pln=TestPlan&lev=4&gby=10&usp=10&vid=5&mem=3&exa=2&exb=0">8</option>
+ <option value="payment_page.php?amt=105&pln=TestPlan&lev=4&gby=10&usp=10&vid=5&mem=3&exa=2&exb=0">9</option>
+ <option value="payment_page.php?amt=105&pln=TestPlan&lev=4&gby=10&usp=10&vid=5&mem=3&exa=2&exb=0">10</option>
+</select></p>
+
+<script type="text/javascript">
+	function go(){
+	location=
+	document.NEWCOMBO.TEST.
+	options[document.NEWCOMBO.TEST.selectedIndex].value
+	}
+</script>
+
+<input type="button" name="test" value="Purchase Now" onClick="go()" class="large button blue">
+</form>
+</div>
+
+<div class="plan-block-clear">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>

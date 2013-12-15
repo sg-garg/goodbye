@@ -1,0 +1,12 @@
+<form action="lost_password.php" method="post">
+
+<h2>Lost Password?</h2>
+<label>E-mail <input id="email" name="email_address" size="50"></label><br>
+<label>Re-enter E-mail <input id="email-retype" name="email-retype" size="50"></label><br><br>
+<p>Enter username <i>(example: for John Smith, this would be jsmith, all lowercase.)</i></p>
+<label>Username <input id="user_name" name="user_name" size="50"></label>
+<input name="recover" type="hidden" value="recover"><br>
+<br><br><br><br>
+<input type="submit" value="Resend Password">
+<div class="info"></div>
+</form>

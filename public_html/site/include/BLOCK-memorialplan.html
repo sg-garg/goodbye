@@ -1,0 +1,37 @@
+<!-- plan 3 -->
+<div class="plan-block">
+<h2>Memorial</h2>
+<hr> 
+<p><i><b>$2.99 Per Memorial Page</b></i><br> 
+Create a memorial for yourself or 
+for someone that has already 
+passed away.</p>
+
+<img src="img/spacer.gif" alt="" height="16" width="20" border="0">
+
+<form name="mycombo">
+<p><select name="nummemorials" size="1">
+<option selected value="payment_page.php?amt=299&pln=Memorial%20Plan(x1)&lev=1&gby=0&usp=0&vid=0&mem=1&exa=b&exb=0">Please select one</option>
+ <option value="payment_page.php?amt=299&pln=Memorial%20Plan(x1)&lev=1&gby=0&usp=0&vid=0&mem=1&exa=b&exb=0">1</option>
+ <option value="payment_page.php?amt=598&pln=Memorial%20Plan(x2)&lev=1&gby=0&usp=0&vid=0&mem=2&exa=b&exb=0">2</option>
+ <option value="payment_page.php?amt=897&pln=Memorial%20Plan(x3)&lev=1&gby=0&usp=0&vid=0&mem=3&exa=b&exb=0">3</option>
+ <option value="payment_page.php?amt=1196&pln=Memorial%20Plan(x4)&lev=1&gby=0&usp=0&vid=0&mem=4&exa=b&exb=0">4</option>
+ <option value="payment_page.php?amt=1495&pln=Memorial%20Plan(x5)&lev=1&gby=0&usp=0&vid=0&mem=5&exa=b&exb=0">5</option>
+ <option value="payment_page.php?amt=1794&pln=Memorial%20Plan(x6)&lev=1&gby=0&usp=0&vid=0&mem=6&exa=b&exb=0">6</option>
+ <option value="payment_page.php?amt=2093&pln=Memorial%20Plan(x7)&lev=1&gby=0&usp=0&vid=0&mem=7&exa=b&exb=0">7</option>
+ <option value="payment_page.php?amt=2392&pln=Memorial%20Plan(x8)&lev=1&gby=0&usp=0&vid=0&mem=8&exa=b&exb=0">8</option>
+ <option value="payment_page.php?amt=2691&pln=Memorial%20Plan(x9)&lev=1&gby=0&usp=0&vid=0&mem=9&exa=b&exb=0">9</option>
+ <option value="payment_page.php?amt=2990&pln=Memorial%20Plan(x10)&lev=1&gby=0&usp=0&vid=0&mem=10&exa=b&exb=0">10</option>
+</select></p>
+
+<script type="text/javascript">
+	function gomem(){
+	location=
+	document.mycombo.nummemorials.
+	options[document.mycombo.nummemorials.selectedIndex].value
+	}
+</script>
+
+<input type="button" name="test" value="Purchase Now" onClick="gomem()" class="large button blue">
+</form>
+</div>
