@@ -1,0 +1,124 @@
+body {background-image: url(../img/texture-406.jpg); font-size:76%; font-family:"trebuchet MS", verdana, arial, sans-serif;}
+
+#minMax {min-width:700px; max-width:900px; margin:0 auto; background:#e0e0e0;}
+
+#header {text-align: center; background:#0a0f32;}
+
+#outer1 {float:left; width:20%; background:#d0c0c0;}
+#outer2 {float:left; width:15%; background:#c0c0c0;}
+#outer3 {float:left; width:30%;}
+#outer4 {float:right; width:15%; background:#d0d0d0;}
+#outer5 {float:right; width:20%; background:#c0b0b0;}
+#outer1, #outer2, #outer3, #outer4, #outer5 {padding-bottom:32767px; margin-bottom:-32767px;}
+
+#wrapper {overflow:hidden;}
+
+#topbar {width:60%; float:left; background:#d8d8d8;}
+
+#footer {clear:both; background:#0a0f32;}
+
+h1 {font-size:20px; margin:0; padding:10px 0; color:#fff;}
+h3 {font-size:18px; margin:0; padding:8px 0;}
+.content {padding:10px;}
+p {font-size:12px; line-height:1.5em; margin:0; padding:5px 0;}
+#footer p,
+#header p {color:#fff;}
+
+.stack > a {background:url(arrow.png) right 9px no-repeat;position:relative;}
+.toprow > ul {margin-top:30px;}
+
+li.nav {background:#aaa;position:relative;float:left;display:block;}
+li.nav li {display:none;}
+li.nav ul {position:absolute;display:block;top:0;width:0;left:0;margin-left:0;height:0;}
+a.nav {background:transparent;line-height:28px;text-indent:10px;font-size:14px;color:#fff !important;text-decoration:none;font-weight:bold;display:block;height:auto;width:auto;border-top:1px solid #ccc;border-left:1px solid #ccc;border-right:1px solid #999;border-bottom:1px solid #999;height:28px;width:auto;}
+a.nav:hover {border-top:1px solid #999;border-left:1px solid #999;border-right:1px solid #ccc;border-bottom:1px solid #ccc;background: #555;}
+
+/* My Additions - CSS ---*/
+h2.foot {padding-left: 0; padding-bottom: 4px; padding-right: 0; padding-top: 10px; font-size:20px; margin:0; color: #a7d0ec;}
+
+/* Start of Column CSS */
+#container4 {
+
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	line-height: 14px;
+	font-size: 12px;
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+#container3 {
+
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	
+	clear:left;
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+}
+#container2 {
+
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	
+	clear:left;
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+}
+#container1 {
+border-style: solid;
+
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+}
+#col1 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:77%;
+	overflow:hidden;
+}
+#col2 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:81%;
+	overflow:hidden;
+}
+#col3 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:85%;
+	overflow:hidden;
+}
+#col4 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:89%;
+	overflow:hidden;
+}
+
+/* Link Styles    */
+#footer a {color:#fff;text-decoration: none;}
+#footer a:link { color:#fff;text-decoration: none;}
+#footer a:visited { color:#fff; }
+#footer a:hover { color: #a7d0ec; text-decoration: none; }
+#footer a:active { color: #a7d0ec; text-decoration: none; }
+
+a:link { color:#0a0f32; }
+a:visited { color:#0a0f32; }
+a:hover { color: #a7d0ec; text-decoration: underline }
+a:active { color: #a7d0ec; text-decoration: underline }
+/* Alternate set    */
+a.text:link { text-decoration: none }
+a.text:visited { text-decoration: none }
+a.text:hover { color: #6bd7d9; text-decoration: underline }
+a.text:active { text-decoration: none }

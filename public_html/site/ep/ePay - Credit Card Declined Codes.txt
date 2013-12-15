@@ -1,0 +1,75 @@
+=========== ePay - Credit Card Declined Codes =========== 12/30/12
+
+This list summarizes different declined codes you may receive while using our credit card processing service. Click here to return to the main credit card page.
+ 
+Last 2 Digits of Error Message
+ 
+01	Call
+This means that the card holder's credit card company has blocked the transaction. Have the client call the 800 number on the back of the card and find out why.
+ 
+02	Call
+This means that the card holders credit card company has blocked the transaction. Have the client call the 800 number on the back of the card and find out why.
+ 
+04	Hold-call or Pick Up Card
+Merchant to keep the card. There is a problem with the card. Call the 800 number on the back of the card to determine the issue.
+ 
+05	Decline	Do not honor.
+The customer's credit card company is telling you not to honor the card. There is a problem with their account. Have them call the 800 number on the back of the card to find out why.
+ 
+07	Hold-call or Pick Up Card
+Merchant to keep the card. There is a problem with the card. It has been marked for fraud. Call the 800 number on the back of the card to determine the issue.
+ 
+14	Card No. Error
+Account number entered incorrectly (bad swipe or mistyped). Verify account number with customer and re-enter (or re-swipe if card is on hand).
+ 
+19
+DECLINED:0720900009: ERROR :19
+REASON AND FIX :This error should only occur if this is a newly approved merchant account. If this is a new merchant account then, there was an error that occurred on the platform file caused by closing the account and then reopening it. The system did not move all of the data to the open page file. Contact MINDBODY's MAP team and we can easily fix this for you. If this is not a new merchant account please contact MINDBODY's MAP team and they will further investigate the cause.
+ 
+28	No Reply
+The card holder's bank is not replying to the credit card transaction. Try waiting and then rerunning the transaction.
+ 
+41	Hold-call or Pick Up Card
+Lost card, merchant to keep. There has been fraud reported on the account. Call the 800 number on the back of the card.
+ 
+43	Hold-call or Pick Up Card
+Stolen card, merchant to keep. There has been fraud reported on the account. Call the 800 number on the back of the card.
+ 
+51	Decline	Insufficient funds.
+They do not have enough money in their account.
+ 
+54	Expired Card
+Expired card.
+ 
+57	Transaction not permitted
+The bank that has issued this card does not allow this type of purchase. Have the client call the 800 number on the back of their card for further explanation.
+ 
+61	Decline	Exceeds issuer withdrawal limit.
+Card cannot be used until withdrawal limit has been increased/lifted.
+ 
+62	Decline	Invalid service code, restricted.
+The customer's credit card company does not allow them to purchase products from your business type. Card cannot be used to purchase from your business.
+ 
+65	Decline	Activity limit exceeded.
+Card cannot be used for the purchase.
+ 
+78 No Account
+Issuing Bank is declining the transactions, and they're may be a problem at the issuing banks end. Clients need to contact corresponding institutions. It appears both clients have the same issuing bank.
+ 
+91	No Reply
+The card holder's bank is not replying to the credit card transaction. Try waiting and then rerunning the transaction.
+ 
+93	Decline	Violation, cannot complete.
+Have the customer call the 800 number on the back of the card to determine the issue.
+ 
+CV
+Failure CV	 - Card Type Verification Error. This means that the type of card has not been added to your account (Or there is an account number error). Please contact the MAP team to resolve the issue.
+ 
+HV
+Failure HV	 - This means that there was a configuration error when your account was added. Please contact the MAP team to resolve the issue.
+ 
+N4
+Decline	Exceeds issuer withdrawal limit. Card cannot be used until withdrawal limit has been increased/lifted.
+ 
+DECLINED:0720900009:STOP RECURRING :R1
+The client has contacted their card institution and requested a block for all re-occurring billing charges to this card. You will need to contact your client directly to request that they remove this block. Or get a new card from them.

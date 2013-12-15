@@ -1,0 +1,202 @@
+body { padding: 0px; margin: 0px; background-image: url(../img/bkgnd_image_001c.jpg); font-size:76%; font-family:"trebuchet MS", verdana, arial, sans-serif;}
+
+#minMax {min-width:700px; max-width:900px; margin:0 auto; background:#e0e0e0;}
+
+#main {
+    width:880px;
+    margin:0px auto;
+    background-color:#D8E0E4;
+    overflow:hidden;
+}
+
+#main div.Admin
+{    
+    color: Black;
+    text-align: left;
+    margin: 25px 5px 25px 5px;
+}
+
+table.Bordered {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.Bordered td, table.Bordered th {
+    border-bottom: 1px solid black !important;
+}
+
+#header {text-align: center; background:#0a0f32;}
+
+#outer1 {float:left; width:20%; background:#d0c0c0;}
+#outer2 {float:left; width:15%; background:#c0c0c0;}
+#outer3 {float:left; width:30%;}
+#outer4 {float:right; width:15%; background:#d0d0d0;}
+#outer5 {float:right; width:20%; background:#c0b0b0;}
+#outer1, #outer2, #outer3, #outer4, #outer5 {padding-bottom:32767px; margin-bottom:-32767px;}
+
+#egcol1 {float:left; width:80%; background:#fff;}
+#egcol2 {float:right; width:20%; background:white;}
+#egcol1, #egcol2 {padding-bottom:32767px; margin-bottom:-32767px;}
+
+/* added to make width 100% - on home page */
+#egcolsc { float:left; width:100%; background:#fff;}
+#egcolsc, #egcolsc2 {padding-bottom:32767px; margin-bottom:-32767px;}
+
+#wrapper {overflow:hidden;}
+
+#topbar {width:80%; float:left; background:#d0c0c0;}
+
+#footer {clear:both; background:#0a0f32;}
+
+
+.content {padding-left: 10px; padding-bottom: 10px; padding-right: 10px; padding-top: 5px;}
+
+#footer p,
+#header p {color:#fff;}
+
+h1 {font-size:20px; margin:0; padding:10px 0; color: #21235b;}
+h2 {font-size:18px; margin:0; padding:10px 0; color: #21235b;}
+h3 {font-size:16px; margin:0; padding:8px 0; color: #21235b;}
+p {font-size:12px; line-height:1.5em; margin:0; padding:5px 0;}
+.Themed { color: #21235b; }
+
+.stack > a {background:url(arrow.png) right 9px no-repeat;position:relative;}
+.toprow > ul {margin-top:30px;}
+
+li.nav {background:#aaa;position:relative;float:left;display:block; z-index:200;}/*Scott, I added zindex for nivo slider*/
+li.nav li {display:none;}
+li.nav ul {position:absolute;display:block;top:0;width:0;left:0;margin-left:0;height:0;}
+a.nav {background:transparent;line-height:28px;text-indent:10px;font-size:14px;color:#fff ;text-decoration:none;font-weight:bold;display:block;height:auto;width:auto;border-top:0px solid #ccc;border-left:0px solid #ccc;border-right:0px solid #999;border-bottom:0px solid #999;height:28px;width:auto;}
+a.nav:hover {border-top:0px solid #999;border-left:0px solid #999;border-right:0px solid #ccc;border-bottom:0px solid #ccc;background: #555;}
+
+/* My Additions - CSS ---*/
+h2.foot {padding-left: 0; padding-bottom: 4px; padding-right: 0; padding-top: 10px; font-size:20px; margin:0; color: #a7d0ec;}
+
+/* Start of Column CSS */
+#container4 {
+
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	line-height: 14px;
+	font-size: 12px;
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+#container3 {
+
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	
+	clear:left;
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+}
+#container2 {
+
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	
+	clear:left;
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+}
+#container1 {
+	font-family: Helvetica, Verdana, Arial, sans-serif;	
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+}
+#col1 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:77%;
+	overflow:hidden;
+}
+#col2 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:81%;
+	overflow:hidden;
+}
+#col3 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:85%;
+	overflow:hidden;
+}
+#col4 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:89%;
+	overflow:hidden;
+}
+
+/* Link Styles    */
+#footer a {color:#a7d0ec;text-decoration: none;}
+#footer a:link { color:#a7d0ec;text-decoration: none;}
+#footer a:visited { color:#a7d0ec; }
+#footer a:hover { color: #fff; text-decoration: none; }
+#footer a:active { color: #999; text-decoration: none; }
+
+a:link { color:#0a0f32; }
+a:visited { color:#0a0f32; }
+a:hover { color: #a7d0ec; text-decoration: underline }
+a:active { color: #a7d0ec; text-decoration: underline }
+/* Alternate set    */
+a.text:link { text-decoration: none }
+a.text:visited { text-decoration: none }
+a.text:hover { color: #6bd7d9; text-decoration: underline }
+a.text:active { text-decoration: none }
+
+/* Tooltips */
+.tooltip2 { 
+    display:none; 
+    margin:8px;
+    padding:15px;
+    border:1px solid #0a0f32;
+    background-color: #a5d0f0;
+    position: absolute;
+    z-index: 2;
+    max-width: 250px;
+    font-size: 12pt;
+    
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.tooltipped{
+    cursor: help;
+}
+
+/* social - development.php */
+#footersocial
+{    
+    text-align: center;
+}
+#footersocial > .twitter-follow-button
+{
+    margin-left: 50px;
+}
+
+/* For modern browsers */
+.clearable:before,
+.clearable:after {
+    content:"";
+    display:table;
+}
+.clearable:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.clearable {
+    zoom:1;
+}
